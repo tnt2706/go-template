@@ -1,6 +1,6 @@
 package main
 
-import "lineapp/internal/server"
+import "template/internal/server"
 
 func main() {
 	server.Init()
