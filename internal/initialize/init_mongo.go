@@ -17,6 +17,8 @@ func ConnectMongo() *mongo.Database {
 		client *mongo.Client
 	)
 
+	fmt.Println("aaa")
+
 	ctx = context.TODO()
 
 	mongoConfig := config.GetMongoConfig()
