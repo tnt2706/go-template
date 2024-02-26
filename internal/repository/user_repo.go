@@ -2,7 +2,7 @@ package repository
 
 import (
 	"context"
-	"lineapp/internal/model"
+	"template/internal/model"
 	"time"
 
 	"go.mongodb.org/mongo-driver/bson"

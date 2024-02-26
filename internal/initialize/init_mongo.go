@@ -3,8 +3,8 @@ package initialize
 import (
 	"context"
 	"fmt"
-	"lineapp/internal/config"
 	"log"
+	"template/internal/config"
 
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -16,8 +16,6 @@ func ConnectMongo() *mongo.Database {
 		ctx    context.Context
 		client *mongo.Client
 	)
-
-	fmt.Println("aaa")
 
 	ctx = context.TODO()
 
